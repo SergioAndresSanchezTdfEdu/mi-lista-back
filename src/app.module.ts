@@ -22,7 +22,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       password: 'nBfUPTPFyJbRAkpUAvtp',
       database: 'bs0bivedcuimbr1vtslq',
       entities: [__dirname + '/**/*.entity{.ts,.js}'],
-      synchronize: false, // En true crea la tabla, luego pasar a false para que no borre lo cargado en la tabla
+      synchronize: true, // En true crea la tabla, luego pasar a false para que no borre lo cargado en la tabla
     }),    
     ListaModule],
   controllers: [AppController],
