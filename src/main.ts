@@ -8,7 +8,7 @@ async function bootstrap() {
 
 
   app.enableCors( {
-    origin:['http://localhost:3000'], // puerto del front
+    origin:['https://mi-lista-front.web.app'], // puerto del front
     methods : 'GET, PUT, POST, DELETE, PATH', 
     credentials: true
   });
